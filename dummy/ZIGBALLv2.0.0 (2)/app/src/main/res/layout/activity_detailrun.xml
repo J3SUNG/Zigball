@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/btn_modify"
+                android:layout_width="wrap_content"
+                android:layout_height="10mm"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="10mm"
+                android:layout_weight="1"
+                android:text="Button" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/List_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </RadioGroup>
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFE8E8"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="556dp" />
+</android.support.constraint.ConstraintLayout>
