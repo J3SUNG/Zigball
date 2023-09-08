@@ -33,7 +33,7 @@
 ### 기술 스택
 
 Language : Java, C++ <br/>
-Tool : Android Studio, Visual Studio
+Tool : Android Studio, Visual Studio <br/>
 Device : Android, Raspberry Pi
 <br/><br/>
 
